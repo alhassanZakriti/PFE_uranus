@@ -1,0 +1,160 @@
+.infos-profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .name-infos{
+        margin: 0px auto;
+    }
+    .name{
+        font-family: 'Montserrat',sans-serif;
+        font-size: 1.563rem;
+        font-weight: 700;
+        margin-bottom: .9rem;
+        text-align: center;
+    }
+    .bio{
+        color: #a5a5a5;
+    }
+    .job{
+        color: #1E53CF;
+        margin-top: -.5em;
+        font-size: .9rem;
+        font-weight: 600;
+    }
+    
+    p{
+        text-align: center;
+        font-weight: 500;
+        font-size: .9rem;
+        color: #3a3a3a;
+        max-width: 400px;
+        margin-bottom: .5em;
+    }   
+    .bio{
+        color: #919090;
+    } 
+    .btn-ac{
+        background-color: #1E53CF;
+        padding: 1em 2em;
+        width: 200px;
+        text-align: center;
+        color: white;
+        font-weight: 700;
+        border-radius: 10px;
+        cursor: pointer;
+        margin: 1em auto;
+        margin-bottom: 2em;
+    }
+
+}
+
+.image-profile{
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    margin: 1em auto;
+    overflow: hidden;
+
+    .picprof{
+        height: 100px;
+        transform: translateX(-15%);     
+    }
+}
+.title{
+    margin: 0px;
+}
+.post{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    >div:nth-of-type(1){
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        >div:nth-of-type(1){
+            display: flex;
+            align-items: center;
+            .image-profil{
+                width: 3.5rem;
+                height: 3.5rem;
+                border-radius: 15px;
+                margin: 1em auto;
+                overflow: hidden;
+            
+                .Profile{
+                    height: 3.5rem;
+                    transform: translateX(-15%);     
+                }
+            }
+            >div:nth-of-type(2){
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                margin-left: 0.8rem;
+                h5{
+                    font-size: 1.25rem;
+                    font-family: 'Montserrat',sans-serif;
+                    font-weight: 600;
+                }
+                p{
+                    color: #1C1D21;
+                    font-size: 0.75rem;
+                    font-family: 'Montserrat',sans-serif;
+                }
+            }
+        }
+        >div:nth-of-type(2){
+            //Up voted
+            font-size: 1rem;
+            font-family: 'Montserrat',sans-serif;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            //voted arrow
+            >img{
+                margin-right: 0.5rem;
+                width: 0.8rem;
+                margin-bottom: 2px;
+            }
+        }
+    }
+
+    >div:nth-of-type(2){
+        //Post text
+        margin-top: 1rem;
+        margin-left: 4rem;
+        >p{
+            font-size: 1rem;
+            font-family: 'Montserrat',sans-serif;
+            color: #858585;
+        }
+    }
+    >div:nth-of-type(3){
+        //reply
+        display: flex;
+        justify-content: center;
+        >p{
+            font-size: 1rem;
+            font-family: 'Montserrat',sans-serif;
+            font-weight: 600;
+        }
+        .replyicon{
+            width: 1rem;
+            margin-right: 0.5rem;
+            cursor: pointer;
+        }
+    }
+}
+
+
+.whole-profile{
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+    
+}
+.posts{
+    padding: 2em;
+}

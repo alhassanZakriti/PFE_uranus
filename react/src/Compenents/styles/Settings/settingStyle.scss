@@ -1,0 +1,131 @@
+*{
+    font-family: 'Montserrat',sans-serif;
+
+}
+.heading{
+    font-family: 'Montserrat',sans-serif;
+        font-size: 1.563rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+}
+.changePic{
+    width: 100px;
+    height: 100px;
+}
+.info{
+    .image{
+        margin-left: 100px;
+        margin-bottom: 1em;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        .changePic{
+            opacity: .4;
+        }
+        label{
+            cursor: pointer;
+            width: 100px;
+            height: 100px;
+            left: 50%;
+            transform: translateX(-100px);
+            bottom: 0;
+            .vectup{
+                margin: 25px;
+                width: 50px;
+            }
+        }
+        #inputTag{
+            display: none;
+            
+            opacity: 1;
+            position: absolute;
+            
+        }
+    }
+}
+.maxx{
+    width: 100%;
+}
+.both{
+    display: flex;
+    margin: 0px auto;
+    width: 70%;
+    .infos{
+        padding: 1em;
+        border: 2px solid rgba(0, 0, 0, 0.274);
+        margin: .3em;
+        width: 50%;
+        font-weight: 600;
+        height: 4em;
+        border-radius: 5px;
+        &:hover{
+            outline: none;
+        }
+        &:focus{
+            border: 2px solid #1E53CF;
+            outline: none;
+        }
+    }
+    .bio{
+        font-size: 15px;
+        font-weight: 600;
+        border-radius: 5px;
+        padding: 1em;
+        border: 2px solid rgba(0, 0, 0, 0.274);
+        width: 100%;
+        height: 10em;
+        margin: .3em;
+        resize: vertical;
+        &:hover{
+            outline: none;
+        }
+        &:focus{
+            outline: none;
+            border: 2px solid #1E53CF;
+        }
+    }
+}
+.btn{
+    background-color: #1E53CF;
+    border: 2px solid #1E53CF ;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    padding: .5em;
+    margin: .3em;
+    width: 20%;
+    height: 3.5em;
+    border-radius: 5px;
+
+}
+.btn-nostroke{
+    outline: none;
+    padding: .5em;
+    margin: .3em;
+    width: 20%;
+    height: 3.5em;
+    border-radius: 5px;
+    border: 2px solid #1E53CF;
+    background-color: #ffffff00;
+    color: #1E53CF;
+    font-weight: 600;
+    cursor: pointer;
+}
+.both-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.headit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    .plus{
+        cursor: pointer;
+        width: 20px;
+    }
+    .mince{
+        font-size: 1.3rem;
+    }
+}

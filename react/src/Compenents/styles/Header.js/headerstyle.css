@@ -1,0 +1,205 @@
+header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+}
+
+header > div:nth-of-type(1) {
+  margin-left: 20%;
+  width: 50%;
+  height: 3rem;
+  position: relative;
+  background: rgba(10, 9, 8, 0.02);
+  border: 1px solid rgba(10, 9, 8, 0.05);
+  border-radius: 6px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header > div:nth-of-type(1) > div {
+  height: inherit;
+  padding-left: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 95%;
+}
+
+header > div:nth-of-type(1) > div input {
+  width: 100%;
+  background: transparent;
+  border: 0;
+  outline: none;
+  font-family: 'Montserrat';
+  font-size: 0.87rem;
+  font-weight: 500;
+}
+
+header > div:nth-of-type(1) img {
+  width: 1.25rem;
+  margin: 0.5rem;
+  margin-right: 1rem;
+}
+
+header > div:nth-of-type(2) {
+  width: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header > div:nth-of-type(2) img {
+  width: 1.3rem;
+}
+
+header > div:nth-of-type(3) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header > div:nth-of-type(3) img {
+  width: 2.5rem;
+}
+
+header > div:nth-of-type(3) p {
+  font-family: 'Montserrat',sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 1rem;
+}
+
+header > div:nth-of-type(3) p span {
+  font-weight: 500;
+}
+
+header > div:nth-of-type(4) {
+  width: 2rem;
+  height: 2rem;
+  background-color: #1E53CF;
+  border-radius: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 0.5rem;
+}
+
+header > div:nth-of-type(4) img {
+  width: 1rem;
+}
+
+.searchResult {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 0;
+}
+
+.searchResult > div {
+  z-index: 4;
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #c4c4c4;
+  border-radius: 1rem;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: none;
+}
+
+.searchResult > div > div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0.5rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.searchResult > div > div > div:nth-of-type(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.searchResult > div > div > div:nth-of-type(1) p {
+  font-size: 0.91rem;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 600;
+}
+
+.searchResult > div > div > div:nth-of-type(2) {
+  background-color: #1E53CF;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.searchResult > div > div > div:nth-of-type(2) > button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  font-size: 0.75rem;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+}
+/*# sourceMappingURL=headerstyle.css.map */

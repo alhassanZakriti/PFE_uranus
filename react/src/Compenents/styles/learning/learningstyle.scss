@@ -1,0 +1,71 @@
+.flexit{
+    display: flex;
+    justify-content: space-between;
+}
+.whole-pg{
+    width: 100%;
+}
+.heading{
+    font-family: 'Montserrat',sans-serif;
+        font-size: 1.563rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+}
+.join{
+    margin-top: 0.5em;
+    margin-right: 1em;
+    cursor: pointer;
+}
+.postes{
+    padding: 2em;
+    height: 80vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.search-box{
+    input{
+        all: unset;
+        width: 100%;
+        font-weight: 600;
+        
+    }
+    width: 60%;
+    height: 3.5em;
+    margin: 1em auto;
+    border-radius: 5px;
+    //border: 1px solid rgba(0, 0, 0, 0.289);
+    box-shadow: rgba(0, 0, 0, 0.037) 0px 4px 30px;
+    display: flex;
+    
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #ffffff;
+    padding-inline: 1em;
+}
+.search-icon{
+    width: 20px;
+    cursor: pointer;
+}
+.result{
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    margin: 0px auto;
+}
+.profile-name{
+    display: flex;
+}
+.profile{
+    margin-right: 1.5em;
+    width: 50px;
+    height: 50px;
+}
+.btn-1{
+    background-color: #1E53CF;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: .7em 1.2em;
+    height: 2.5em;
+}

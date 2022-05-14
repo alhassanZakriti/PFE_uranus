@@ -1,0 +1,163 @@
+* {
+  font-family: 'Montserrat',sans-serif;
+}
+
+.heading {
+  font-family: 'Montserrat',sans-serif;
+  font-size: 1.563rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.changePic {
+  width: 100px;
+  height: 100px;
+}
+
+.info .image {
+  margin-left: 100px;
+  margin-bottom: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.info .image .changePic {
+  opacity: .4;
+}
+
+.info .image label {
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  left: 50%;
+  -webkit-transform: translateX(-100px);
+          transform: translateX(-100px);
+  bottom: 0;
+}
+
+.info .image label .vectup {
+  margin: 25px;
+  width: 50px;
+}
+
+.info .image #inputTag {
+  display: none;
+  opacity: 1;
+  position: absolute;
+}
+
+.maxx {
+  width: 100%;
+}
+
+.both {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px auto;
+  width: 70%;
+}
+
+.both .infos {
+  padding: 1em;
+  border: 2px solid rgba(0, 0, 0, 0.274);
+  margin: .3em;
+  width: 50%;
+  font-weight: 600;
+  height: 4em;
+  border-radius: 5px;
+}
+
+.both .infos:hover {
+  outline: none;
+}
+
+.both .infos:focus {
+  border: 2px solid #1E53CF;
+  outline: none;
+}
+
+.both .bio {
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 1em;
+  border: 2px solid rgba(0, 0, 0, 0.274);
+  width: 100%;
+  height: 10em;
+  margin: .3em;
+  resize: vertical;
+}
+
+.both .bio:hover {
+  outline: none;
+}
+
+.both .bio:focus {
+  outline: none;
+  border: 2px solid #1E53CF;
+}
+
+.btn {
+  background-color: #1E53CF;
+  border: 2px solid #1E53CF;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  padding: .5em;
+  margin: .3em;
+  width: 20%;
+  height: 3.5em;
+  border-radius: 5px;
+}
+
+.btn-nostroke {
+  outline: none;
+  padding: .5em;
+  margin: .3em;
+  width: 20%;
+  height: 3.5em;
+  border-radius: 5px;
+  border: 2px solid #1E53CF;
+  background-color: #ffffff00;
+  color: #1E53CF;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.both-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.headit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.headit .plus {
+  cursor: pointer;
+  width: 20px;
+}
+
+.headit .mince {
+  font-size: 1.3rem;
+}
+/*# sourceMappingURL=settingStyle.css.map */

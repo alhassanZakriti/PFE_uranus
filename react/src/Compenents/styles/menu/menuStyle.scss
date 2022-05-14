@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+.b-menu{
+    width: 18%;
+}
+.menu{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    ul{
+        width: 100%;
+        margin-top: 8rem;
+        
+        li{
+            position: relative;
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            margin-top: 1.5rem;
+            width: 20vw;
+            cursor: pointer;
+            a{
+                display: flex;
+            }
+            p{
+                font-family: 'Montserrat' ,sans-serif;
+                font-size: 1.1rem;
+                font-weight: 600;
+                margin-left: 2rem;
+                color: #4C4C4C;
+            }
+            img{
+                width: auto;
+                height: 1.25rem;
+                
+            }
+            
+        }
+        
+    }
+    
+    >div{
+        display: flex;
+            align-items: center;
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+            cursor: pointer;
+            p{
+                font-family: 'Montserrat' ,sans-serif;
+                font-size: 1.1rem;
+                font-weight: 600;
+                margin-left: 2rem;
+                color: rgba(211, 11, 11, 1);
+            }
+            img{
+                width: auto;
+                height: 1.25rem;
+            }
+    }
+}
+
+.isHome{
+        ::before{
+            content: '';
+            position: absolute;
+            width: 6px;
+            border-top-right-radius: 6px;
+            border-bottom-right-radius: 6px;
+            height: 100%;
+            left: 0;
+            margin-left: -2rem;
+            top:0;
+            background-color: rgba(30, 83, 207, 1);
+            transition: all ease-in-out .2s;
+          }
+    }

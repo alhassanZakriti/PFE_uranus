@@ -1,0 +1,67 @@
+.b-courses{
+    width: 100%;
+    
+    .top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .add-class{
+            cursor: pointer;
+            margin-right: 2em;
+        }
+    }
+}
+
+
+.b-module{
+    background-color: #1E53CF;
+    display: flex;
+    color: white;
+    padding: 2em 2em;
+    width: 45%;
+    border-radius: 20px;
+    margin: 1em;
+    float: left;
+    img{
+        margin-right: 2em;
+    }
+    .class-code{
+        font-weight: 600;
+        span{
+            font-weight: 400;
+        }
+    }
+}
+
+.add-class-box{
+    input{
+        all: unset;
+        width: 100%;
+        font-weight: 600;
+        
+    }
+    width: 60%;
+    height: 3.5em;
+    margin: 1em auto;
+    border-radius: 5px;
+    //border: 1px solid rgba(0, 0, 0, 0.289);
+    box-shadow: rgba(0, 0, 0, 0.037) 0px 4px 30px;
+    display: flex;
+    
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #ffffff;
+    padding-inline: 1em;
+    .plus{
+        color: #1E53CF;
+        cursor: pointer;
+    }
+    
+}
+
+
+.modules{
+    overflow: hidden;
+    height: 80vh;
+    overflow-y: scroll;
+}

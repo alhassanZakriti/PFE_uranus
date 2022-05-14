@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAA;EACL,KAAK,EAAE,IAAI;CACd",
+    "sources": [
+        "searchstyle.scss"
+    ],
+    "names": [],
+    "file": "searchstyle.css"
+}

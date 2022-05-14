@@ -1,0 +1,96 @@
+.contain {
+  -webkit-box-shadow: #00000006 0px 0px 40px;
+          box-shadow: #00000006 0px 0px 40px;
+  padding: 1.5em;
+  border-radius: 20px;
+  margin-bottom: 1.5em;
+}
+
+.informations {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.module {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100.06%;
+  color: #1E53CF;
+}
+
+.name {
+  font-size: 1.35rem;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 600;
+}
+
+.job {
+  color: #1C1D21;
+  font-size: 1rem;
+  font-family: 'Montserrat',sans-serif;
+}
+
+.top-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.profile {
+  border-radius: 10px;
+  width: 18%;
+  margin-right: 1.5em;
+}
+
+.left-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.icon {
+  margin-right: 1.5em;
+  width: 40px;
+}
+
+.pdf {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 38vw;
+  padding: 1em;
+}
+
+.down {
+  width: 30px;
+}
+
+.post-desc {
+  width: 38vw;
+  margin: 1em auto;
+  margin-bottom: -1em;
+}
+
+.text {
+  margin-bottom: 1.5em;
+}
+
+.title {
+  vertical-align: middle;
+  margin-top: 1em;
+}
+/*# sourceMappingURL=coursestyle.css.map */

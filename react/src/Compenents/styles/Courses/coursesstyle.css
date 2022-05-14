@@ -1,0 +1,83 @@
+.b-courses {
+  width: 100%;
+}
+
+.b-courses .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.b-courses .top .add-class {
+  cursor: pointer;
+  margin-right: 2em;
+}
+
+.b-module {
+  background-color: #1E53CF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  padding: 2em 2em;
+  width: 45%;
+  border-radius: 20px;
+  margin: 1em;
+  float: left;
+}
+
+.b-module img {
+  margin-right: 2em;
+}
+
+.b-module .class-code {
+  font-weight: 600;
+}
+
+.b-module .class-code span {
+  font-weight: 400;
+}
+
+.add-class-box {
+  width: 60%;
+  height: 3.5em;
+  margin: 1em auto;
+  border-radius: 5px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.037) 0px 4px 30px;
+          box-shadow: rgba(0, 0, 0, 0.037) 0px 4px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ffffff;
+  padding-inline: 1em;
+}
+
+.add-class-box input {
+  all: unset;
+  width: 100%;
+  font-weight: 600;
+}
+
+.add-class-box .plus {
+  color: #1E53CF;
+  cursor: pointer;
+}
+
+.modules {
+  overflow: hidden;
+  height: 80vh;
+  overflow-y: scroll;
+}
+/*# sourceMappingURL=coursesstyle.css.map */
